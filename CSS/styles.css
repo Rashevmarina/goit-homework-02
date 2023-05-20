@@ -1,0 +1,140 @@
+/* header */
+body {
+    font-family: 'Roboto';
+    color: #2E2F42;
+    background: #E5E5E5;
+}
+
+.Web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
+    color: #4D5AE5;
+}
+
+.Studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
+    color: #2E2F42;
+}
+
+.navigation>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* section1 */
+.button_nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.button_nav:focus {
+    color: var(--secondary-accent-color);
+    
+}
+
+.button_nav:hover {
+    color: var(--secondary-accent-color);
+    
+}
+
+.button_navALL {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background: #404BBF;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.button_navALL:hover {
+    color: var(--secondary-accent-color);
+}
+
+.button_navALL:focus {
+    color: var(--secondary-accent-color);
+}
+
+/* section 2 */
+
+.portfolioimg {
+    background: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* indexhtml */
+
+.button_Order {
+    background: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+.button_Order:hover {
+    color: var(--secondary-accent-color);
+   
+}
+
+.button_Order:focus {
+    color: var(--secondary-accent-color);
+   
+}
