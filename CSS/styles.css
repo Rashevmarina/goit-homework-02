@@ -26,6 +26,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    text-decoration: none;
 }
 
 .Studio.link {
@@ -35,24 +36,39 @@ body {
     font-size: 18px;
     line-height: 1.333;
     color: #2E2F42;
+    text-decoration: none;
 }
 
-.navigation>a {
+.navigation.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    text-decoration:none;
 }
-
-.contacts {
+.navigation:hover,:focus {
+    color: #404bbf;
+}
+.navigation.list {
+    text-decoration: none;
+}
+ .address.list {
+    font-style: normal;
+    letter-spacing: 0.02em;}
+.contacts.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    text-decoration:none;
+}
+.contacts.link:hover,:focus {
+    color: #404bbf;
 }
 
 /* section1 */
