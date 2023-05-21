@@ -1,20 +1,34 @@
 /* header */
 body {
-    font-family: 'Roboto';
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background: #E5E5E5;
+    background-color: #FFFFFF;
+}
+:root {
+   
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    --primary-black-color: #434455;
+    --primary-white-color: #ffffff;
+    --primary-accent-color: var(--primary-black-color);
+    --secondary-accent-color: black;
+    --active-link-color: #f44336;
+    
 }
 
-.Web {
-    font-family: 'Raleway';
+.web.link {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.333;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
-.Studio {
+.Studio.link {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
