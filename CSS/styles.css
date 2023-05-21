@@ -67,7 +67,7 @@ body {
     color: #434455;
     text-decoration:none;
 }
-.contacts.link:hover,:focus {
+.contacts.link :hover, :focus {
     color: #404bbf;
 }
 
@@ -127,6 +127,37 @@ body {
 }
 
 /* section 2 */
+.about_us_menu{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.description { 
+    letter-spacing: 0.02em
+    
+}
+/* section 3 */
+
+.What_are_we_doing {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+/* section 4 */
+ .our_team {
+    background-color: #F4F4FD;
+ }
+
+ .our_team_photo {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+ }
 
 .portfolioimg {
     background: #FFFFFF;
