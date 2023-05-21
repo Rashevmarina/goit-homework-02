@@ -72,28 +72,37 @@ body {
 }
 
 /* section1 */
+
+.button_os {
+    color: #2e2f42;
+    background-color:#2e2f42;
+}
+.name  {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
 .button_nav {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: #FFFFFF;
+    background: #4D5AE5;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
-   
+    letter-spacing: 0.04em;
 }
 
-.button_nav:focus {
+.button_nav:focus, :hover {
     color: var(--secondary-accent-color);
-    
-}
+    background-color: #404BBF;
 
-.button_nav:hover {
-    color: var(--secondary-accent-color);
-    
 }
 
 .button_navALL {
