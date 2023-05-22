@@ -63,8 +63,8 @@
 .link {
     text-decoration: none;
   }
-.navigation-link link:hover,
-.navigation-link link:focus {
+.navigation-link .link :hover,
+.navigation-link .link :focus {
     color: #404bbf;
 }
 .navigation.list {
