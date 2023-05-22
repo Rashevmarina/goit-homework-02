@@ -102,7 +102,7 @@ body {
 
 .button_os {
     color: #2e2f42;
-    background-color: #2e2f42;
+    background-color: var(--secondary-background-color);
 }
 
 .name {
@@ -113,26 +113,20 @@ body {
     color: var(--white-color);
     text-align: center;
 }
-
 .button_order_service {
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--white-color);
-    background: #4D5AE5;
-    border: 1px solid #E7E9FC;
-    cursor: pointer;
     letter-spacing: 0.04em;
-    text-align: center;
+    color: #ffffff;
+    cursor: pointer
 }
-.button_order_service :hover {color: #2e2f42;
-    background-color: var(--active-accent-background-color);}
-
-.button_order_service :focus {color: #2e2f42;
-        background-color: var(--active-accent-background-color);}   
-
+ .button_order_service:hover,
+ .button_order_service:focus {
+background-color: var(--active-accent-background-color);
+}
 
 /* section 2 */
 .about_us_menu {
