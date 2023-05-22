@@ -19,8 +19,8 @@
   }
 
   body {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: var(--primary-background-color);
 }
 
