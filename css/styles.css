@@ -36,7 +36,7 @@ body {
     text-decoration: none;
 }
 
-.Studio {
+.studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -114,7 +114,7 @@ body {
     text-align: center;
 }
 
-.button_nav {
+.button_order_service {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -125,15 +125,14 @@ body {
     border: 1px solid #E7E9FC;
     cursor: pointer;
     letter-spacing: 0.04em;
-
+    text-align: center;
 }
+.button_order_service :hover {color: #2e2f42;
+    background-color: var(--active-accent-background-color);}
 
-.button_nav:focus,
-:hover {
-    color: #2e2f42;
-    background-color: var(--active-accent-background-color);
+.button_order_service :focus {color: #2e2f42;
+        background-color: var(--active-accent-background-color);}   
 
-}
 
 /* section 2 */
 .about_us_menu {
@@ -235,13 +234,13 @@ ol {
     background-color: var(--secondary-background-color);
 }
 
-.Studio-logo {
+.studio-logo {
     color: #f4f4fd
 }
 
 /* indexhtml */
 
-.button_Order {
+.button_os {
     background: #4D5AE5;
     font-family: 'Roboto';
     font-style: normal;
@@ -252,15 +251,6 @@ ol {
     cursor: pointer;
 }
 
-.button_Order:hover {
-    color: var(--secondary-accent-color);
-
-}
-
-.button_Order:focus {
-    color: var(--secondary-accent-color);
-
-}
 
 /* portfolio page */
 
