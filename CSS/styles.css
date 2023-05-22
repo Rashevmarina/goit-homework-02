@@ -40,11 +40,11 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
-    color: var( --second-footer-logo-color);
+    color: var(--first-logo-color);
     text-decoration: none;
 }
 
-.navigation .link {
+.navigation-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -58,13 +58,12 @@
     list-style-type: none;
   }
   
-  .link {
+.link {
     text-decoration: none;
   }
-.navigation :hover,
-.navigation :focus {
-    color: var(--active-accent-background-color) 
-    
+.navigation-link.link :hover,
+.navigation-link.link :focus {
+    color: #404bbf;
 }
 .navigation.list {
     text-decoration: none;
@@ -148,7 +147,7 @@
  }
 
 /* section 4 */
-.section4_team {
+.section_team {
     background-color: #F4F4FD;
 
 }
@@ -164,23 +163,18 @@
 .portfolioimg link {
     background-color: var(--primary-background-color)
 }
- .our_team_photo {
+ .our_team_photo.link {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-color);
+    background-color: #FFFFFF
  }
  .our_team_photo list {
     list-style: none;
  }
-.our_team_photo link {
-    background-color: var(--primary-background-color);
-
-}
-
-
 .portfolioimg {
     background: var(--primary-background-color);
 }
