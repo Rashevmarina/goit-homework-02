@@ -24,6 +24,7 @@
     background-color: var(--primary-background-color);
 }
 
+
 .web.link {
     font-family: var(--second-primary-font);
     font-style: normal;
@@ -36,13 +37,13 @@
     text-decoration: none;
 }
 
-.Studio-link {
+.Studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
-    color: var(--first-logo-color);
+    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -61,7 +62,7 @@
     cursor: pointer;
 }
 .navigation-link :focus {
-    color: var(--active-accent-background-color);
+    color: #404bbf;
     cursor: pointer;
 }
 .navigation.list {
