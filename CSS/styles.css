@@ -54,13 +54,13 @@
     color: var(--secondary-color);
     text-decoration:none;
 }
-.navigation:hover,:focus {
-    color: #404bbf;
-}
-.navigation link:hover,:focus {
+.navigation link:hover {
     color: #404bbf;
     text-decoration: none;
-   
+}
+.navigation link:focus {
+    color: #404bbf;
+    text-decoration: none;
 }
 .navigation.list {
     text-decoration: none;
@@ -246,6 +246,7 @@ ol {
     letter-spacing: 0.04em;
 
 }
+
 
 .button_navALL:hover {
     color: #F4F4FD;
