@@ -56,16 +56,13 @@
     color: var(--secondary-color);
     text-decoration:none;
 }
-.list {
-    list-style-type: none;
-  }
-  
-.link {
-    text-decoration: none;
-  }
-.navigation-link .link :hover,
-.navigation-link .link :focus {
-    color: #404bbf;
+  .navigation-link :hover {
+    color: var(--active-accent-background-color);
+    cursor: pointer;
+}
+.navigation-link :focus {
+    color: var(--active-accent-background-color);
+    cursor: pointer;
 }
 .navigation.list {
     text-decoration: none;
