@@ -1,20 +1,25 @@
 /* header */
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background: #E5E5E5;
-    background-color: #FFFFFF;
-}
 :root {
-   
-    --primary-font: "Roboto", sans-serif;
-    --title-font: "Raleway", sans-serif;
-    --primary-black-color: #434455;
-    --primary-white-color: #ffffff;
-    --primary-accent-color: var(--primary-black-color);
-    --secondary-accent-color: black;
-    --active-link-color: #f44336;
-    
+    --primary-color: #434455;
+    --secondary-color: #2e2f42;
+    --white-color: #ffffff;
+    --second-logo-color: #4d5ae5;
+    --first-logo-color: #2e2f42;
+    --first-footer-logo-color: #4d5ae5;
+    --second-footer-logo-color: #f4f4fd;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #2e2f42;
+    --gray-background-color: #f4f4fd;
+    --accent-color: #4d5ae5;
+    --active-accent-color: #ffffff;
+    --accent-background-color: #f4f4fd;
+    --active-accent-background-color: #404bbf;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-color);
+    background: #E5E5E5;
+    background-color: var(--primary-background-color);
 }
 
 .web.link {
@@ -25,7 +30,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--second-logo-color);
     text-decoration: none;
 }
 
@@ -35,7 +40,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
-    color: #2E2F42;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -46,25 +51,32 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-color);
     text-decoration:none;
 }
 .navigation:hover,:focus {
     color: #404bbf;
+}
+.navigation link:hover,:focus {
+    color: #404bbf;
+    text-decoration: none;
+   
 }
 .navigation.list {
     text-decoration: none;
 }
  .address.list {
     font-style: normal;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    list-style: none;
+}
 .contacts.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--primary-color);
     text-decoration:none;
 }
 .contacts.link :hover, :focus {
@@ -82,7 +94,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
 }
 .button_nav {
@@ -91,53 +103,35 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: var(--white-color);
     background: #4D5AE5;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
     letter-spacing: 0.04em;
+   
 }
 
 .button_nav:focus, :hover {
-    color: var(--secondary-accent-color);
+    color: #2e2f42;
     background-color: #404BBF;
 
 }
-
-.button_navALL {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-    background: #404BBF;
-    border-radius: 4px;
-    cursor: pointer;
-    
-}
-
-.button_navALL:hover {
-    color: var(--secondary-accent-color);
-}
-
-.button_navALL:focus {
-    color: var(--secondary-accent-color);
-}
-
 /* section 2 */
 .about_us_menu{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .description { 
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-color);
     
 }
 /* section 3 */
 
-.What_are_we_doing {
+.what_are_we_doing {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -145,9 +139,23 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
+ .what_are_we_doing list {
+    list-style: none;
+ }
+
 /* section 4 */
+.section4_our_team {
+    background-color: #F4F4FD;
+
+}
  .our_team {
     background-color: #F4F4FD;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-color);
  }
 
  .our_team_photo {
@@ -156,11 +164,19 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--secondary-color);
  }
+ .our_team_photo list {
+    list-style: none;
+ }
+.our_team_photo link {
+    background-color: var(--primary-background-color);
+
+}
+
 
 .portfolioimg {
-    background: #FFFFFF;
+    background: var(--primary-background-color);
 }
 
 h3 {
@@ -169,7 +185,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--secondary-color);
 }
 
 p {
@@ -178,13 +194,17 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--primary-color);
 }
 
 ul,
 ol {
     list-style-type: none;
 }
+ 
+.footer {
+   background-color: var(--secondary-background-color);}
+
 
 /* indexhtml */
 
@@ -207,4 +227,67 @@ ol {
 .button_Order:focus {
     color: var(--secondary-accent-color);
    
+}
+/* portfolio page */
+
+.section1.list {
+    list-style: none;
+}
+.button_navALL {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4d5ae5;
+    background: #F4F4FD;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+
+}
+
+.button_navALL:hover {
+    color: #F4F4FD;
+    background-color: #404BBF;
+}
+
+.button_navALL:focus {
+    color: #F4F4FD;
+    background-color: #404BBF;
+}
+.button_navportfolio link {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4d5ae5;
+    background: #F4F4FD;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.Full_Navigation list {
+    list-style: none;
+
+}
+.portfolioimg link {
+    text-decoration: none;
+
+}
+.service_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+.service_app {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+
 }
