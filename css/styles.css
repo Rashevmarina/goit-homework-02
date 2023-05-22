@@ -252,9 +252,9 @@ ol {
         font-size: 16px;
         line-height: 1.5;
         display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
+        text-decoration: none;
 }
 .button_navportfolio :hover,
 .button_navportfolio :focus {
@@ -266,22 +266,26 @@ ol {
 
 .Full_Navigation list {
     list-style: none;
-
-}
-.portfolioimg link {
     text-decoration: none;
 
 }
+.portfolioimg {
+    text-decoration: none;
+
+}
+
 .service_name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+    text-decoration: none
 }
 .service_app {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    text-decoration: none
 }
