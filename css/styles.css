@@ -75,14 +75,8 @@ body {
     letter-spacing: 0.02em;
     list-style: none;
 }
-
-.contacts .link :hover,
-.contacts .link :focus {
-    color: #404bbf;
-}
-
 .contacts.link {
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -98,11 +92,6 @@ body {
 
 /* section1 */
 
-.section_os {
-    color: #2e2f42;
-    background-color: #2e2f42;
-}
-
 .name {
     font-size: 56px;
     line-height: 1.07;
@@ -111,9 +100,15 @@ body {
     color: var(--white-color);
     text-align: center;
 }
+
+.section_os {
+    color: #2e2f42;
+    background-color: var(--secondary-background-color);
+}
+
 .button {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -121,13 +116,11 @@ body {
     color: #ffffff;
     cursor: pointer
 }
-.button :hover {
-    background-color: var(--active-accent-background-color);
-}
+.section_os .button:hover {
+background-color:#404BBF;}
 
-.button :focus {
-background-color: var(--active-accent-background-color);
-}
+.section_os .button:focus {
+    background-color:#404BBF;}
 
 /* section 2 */
 .about_us_menu {
