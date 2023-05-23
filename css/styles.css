@@ -85,8 +85,11 @@ body {
     text-decoration: none;
 }
 
-.contacts.link :hover,
-:focus {
+.contacts.link :hover {
+    color: var(--active-accent-background-color);
+}
+
+.contacts.link :focus {
     color: var(--active-accent-background-color);
 }
 
