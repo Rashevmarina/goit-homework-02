@@ -118,10 +118,10 @@ body {
     cursor: pointer
 }
 .button:hover {
-background-color: var(active-accent-background-color)}
+background-color: #404BBF}
 
 .button:focus {
-background-color: var(active-accent-background-color)}
+background-color: #404BBF}
 
 /* section 2 */
 .about_us_menu {
@@ -138,6 +138,11 @@ background-color: var(active-accent-background-color)}
 }
 .list-aboutus {
     list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color)
 }
 
 /* section 3 */
@@ -197,12 +202,20 @@ background-color: var(active-accent-background-color)}
 .portfolioimg {
     background: var(--primary-background-color);
 }
+.about_us_menu {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
 
 
 /* footer */
 .text {
     color: var(--second-footer-logo-color);
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .footer {
@@ -259,7 +272,7 @@ background-color: var(active-accent-background-color)}
 .button_navportfolio:hover,
 .button_navportfolio:focus {
     color: var(--white-color);
-    background-color: var(active-accent-background-color);
+    background-color: #404BBF;
     cursor: pointer;
 }
 
