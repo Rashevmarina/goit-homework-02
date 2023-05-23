@@ -20,7 +20,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: var(--primary-background-color);
+    background-color: #ffffff;
 }
 
 
@@ -66,8 +66,6 @@ body {
     color: #404bbf;
 }
 
-
-
 .navigation.list {
     text-decoration: none;
 }
@@ -100,7 +98,7 @@ body {
 
 /* section1 */
 
-.button_os {
+.section_os {
     color: #2e2f42;
     background-color: #2e2f42;
 }
@@ -113,7 +111,7 @@ body {
     color: var(--white-color);
     text-align: center;
 }
-.button_order_service {
+.button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -123,8 +121,11 @@ body {
     color: #ffffff;
     cursor: pointer
 }
- .button_order_service :hover,
-.button_order_service :focus {
+.button :hover {
+    background-color: var(--active-accent-background-color);
+}
+
+.button :focus {
 background-color: var(--active-accent-background-color);
 }
 
