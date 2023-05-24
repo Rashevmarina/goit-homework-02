@@ -1,4 +1,7 @@
-
+img {
+    display: block;
+    max-width: 100%;
+}
 
 :root {
     --primary-font: "Roboto", sans-serif;
@@ -21,6 +24,7 @@ body {
     color: var(--primary-color);
     background-color: var(--white-color);
 }
+
 /* header */
 
 .web.link {
@@ -35,9 +39,7 @@ body {
 }
 
 .studio {
-    
     color: var(--secondary-color);
- 
 }
 
 .navigation-link {
@@ -50,16 +52,16 @@ body {
     text-decoration: none;
     list-style: none;
 }
+
 .link-nav {
     list-style: none;
 }
 
-.navigation-link:hover
- {
-    color: var(--active-accent-background-color) 
+.navigation-link:hover {
+    color: var(--active-accent-background-color)
 }
-.navigation-link:focus
- {
+
+.navigation-link:focus {
     color: var(--active-accent-background-color);
 }
 
@@ -72,6 +74,7 @@ body {
     letter-spacing: 0.02em;
     list-style: none;
 }
+
 .contacts.link {
     font-family: var(--primary-font);
     font-style: normal;
@@ -88,6 +91,18 @@ body {
 
 .contacts.link:focus {
     color: var(--active-accent-background-color);
+}
+
+/* -----indexhtml -------*/
+
+.button_os {
+    background: var(--accent-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--white-color);
+    cursor: pointer;
 }
 
 /* section1 */
@@ -116,11 +131,10 @@ body {
     color: var(--white-color);
     cursor: pointer
 }
-.button:hover {
-background-color: #404BBF}
 
-.button:focus {
-background-color: #404BBF}
+.button:is(:hover, :focus) {
+    background-color: #404BBF
+}
 
 /* section 2 */
 .about_us_menu {
@@ -135,6 +149,7 @@ background-color: #404BBF}
     color: var(--primary-color);
 
 }
+
 .list-aboutus {
     list-style: none;
     font-weight: 500;
@@ -158,13 +173,14 @@ background-color: #404BBF}
 .what_are_we_doing list {
     list-style: none;
 }
+
 .pictures {
     list-style: none;
 }
+
 /* section 4 */
 .section_team {
     background-color: var(--gray-background-color);
-
 }
 
 .our_team {
@@ -191,7 +207,6 @@ background-color: #404BBF}
     color: var(--secondary-color);
     background-color: var(--primary-background-color);
     list-style: none;
-    
 }
 
 .our_team_photo list {
@@ -201,16 +216,15 @@ background-color: #404BBF}
 .portfolioimg {
     background: var(--primary-background-color);
 }
+
 .about_us_menu {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
 }
 
-
-/* footer */
+/* -----footer------*/
 .text {
     color: var(--second-footer-logo-color);
     letter-spacing: 0.02em;
@@ -225,26 +239,13 @@ background-color: #404BBF}
     color: var(--second-footer-logo-color)
 }
 
-/* indexhtml */
-
-.button_os {
-    background: var(--accent-color);
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--white-color);
-    cursor: pointer;
-}
-
-
-/* portfolio page */
+/* -------portfolio page-------- */
 
 .section1_button {
     list-style: none;
 }
 
-.button-list{
+.button-list {
     text-decoration: none;
 }
 
@@ -264,12 +265,12 @@ background-color: #404BBF}
 .list-portfoliobutton {
     list-style: none;
 }
+
 .list-portfolioimg {
     list-style: none;
 }
 
-.button_navportfolio:hover,
-.button_navportfolio:focus {
+.button_navportfolio:is(:hover, :focus) {
     color: var(--white-color);
     background-color: #404BBF;
     cursor: pointer;
@@ -277,7 +278,6 @@ background-color: #404BBF}
 
 .portfolioimg {
     text-decoration: none;
-
 }
 
 .service_name {
